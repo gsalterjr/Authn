@@ -71,6 +71,61 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 .container img {
-    width: 50px;
+    width: 108px;
     padding: 0px 10px;
 }
+.Index-container {
+    /*margin: 10px;*/
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.item {
+    padding: 30px;
+    width: 50%;
+    padding-bottom: 0px;
+}
+
+.item, i2 {
+    flex-basis: 50%
+}
+
+.HL-Banner {       
+    height: 31px;
+    width: 25rem;
+    left: 69px;
+    top: 169px;
+    
+    /* H5/Bold • FS Humana */
+
+    font-family: FS Humana;
+    font-size: 24px;
+    line-height: 24px;
+    /* or 100% */
+
+    flex-grow: 1;
+   /* align-items: flex-end;*/
+    text-align: center;
+    color: #FFFFFF;
+}
+.Background-of-Health-Literacy {    
+    height: 350px;
+    width: 25rem;
+    left: 55px;
+    top: 242px;
+    background: #E8F4DC;
+
+    flex: 1;
+}
+.Login_image {
+    position: absolute;
+    width: 646px;
+    height: 887px;
+    left: 646px;
+    top: 95px;
+    background: white;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
